@@ -144,32 +144,35 @@ module.exports.onChat = async ({ api, event,message }) => {
   try{
     const body = event.body ? event.body.toLowerCase() : ""
     if(body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("janu") || body.startsWith("kuttu")){
-      const arr = body.replace(/^\S+\s*/, "") || "hasan";
-      if (arr === "hasan"){ 
+      const arr = body.replace(/^\S+\s*/, "") || "makima";
+      if (arr === "makima"){ 
 const funnyReplies = [
-          "কি হয়ছে বেবি দাকস কেন 🍆🙂",
-    "আমারে কেনো লাগবে তুর বল 🦆",
+              "কি হয়ছে বেবি ববি বলে দাকো কেন 🙂",
+    "ahm ahm 🐸 dako ken",
     "Ami ekhane bby 🥹",
     "Amake vhule jaw 🤌😫",
-    "Ei ne amar rubbish boss er id\n\n✨ https://www.facebook.com/Itz.HaSaN.00 🫰\n\namare arr disturb korbi nah jah 😑😒",
-    "ki hoiche ki koibi ?🐐",
-    "kire bukachuda dakhtechos killai etw🐐👈",
-    "Ami shudhu hasan er bbu🤌😫",
-    "I love you ummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmaaaaaaaaaaaaaaaaaaahhhhhhhhh🫦💋",
-    "Kire bolod, amare koitechos naki? 🐸",
-    "ei new jush khaw, bot bolte bolte hapai gecho 🧃",
+    "ki hoiche ki koibi ?",
+    "bbu bbu bolte bolte hapi ye geso jaw aktu rest new",
+    "ami busy akhon pore daiko 🐱",
+    "jaa luccha ",
+    "amare dako naki  🐸",
+    "ei new jush khaw, bbu bolte bolte hapai gecho 🧃",
     "Amake vhule jao 🥺",
-    "Ami shudhu Hasan er. Don't disturb me! 🤦",
+    " Don't disturb me! ",
     "bujhchi tui je Single na hole amare dakti na ekhon ki bolbi bol! 🙂🤌",
     "ei mon tumake dilam 🦆💨",
-    "bujhchi tur kew nai amar motoi single 🫶💔",
-    "কিরে বলদ তুই এইখানে !?🍆",
-    "জানিস তুর আর আমার মিল কিসে ? ওইটা হচ্ছে তুই ও লুইচ্চা আর আমার কথা কি কমু!?🙂🚬",
-    "আমার বস হাসান রে ডাক ওই সিঙ্গেল আছে 🐸🫦",
+    " assalamualaikum 💖",
+    "kiyo dako keno ? ",
+    "kire amake miss kro naki ",
     "কি হইছে আমার কি কাজে লাগবে তুর !?🌚👀",
     "তুই সেই লুইচ্চাটা না !? 🙂🔪",
-    "bby daktecho kno ummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmaaaaaaaaaaaaaaaaaaahhhhhhhhh 🫦💋\n\n🗣️Hasan🐸🔪",
-    "tui ki janosh tui ekhta bolod !? 🦆💨"
+    "bby daktecho kno 🐸",
+    "kmn aso bby 🥹💐",
+    "humm blo bbu 🍺",
+    "ki hoise ato dako keno😑",
+    "এই নেও তোমার জন্য 🍺",
+    "কখনো ছেড়ে যাবেনা প্রমিস করো 😅",
+    "এখানে কি যাও পড়তে বস "
         ];
         return api.sendMessage(funnyReplies[Math.floor(Math.random() * funnyReplies.length)], event.threadID, (error, info) => {
 
