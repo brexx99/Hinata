@@ -50,7 +50,7 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "🔎| checking........",
+        body: "🔎",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
