@@ -12,16 +12,16 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "𓃠",
-	"prefix": "#",
+	"nickNameBot": "𝗛𝗜𝗡𝗔𝗧𝗔 🌸",
+	"prefix": "!",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
 	"adminBot": [
-		"100068909067279"
+		"61566533590967"
 	],
-	"owner": ["61569868084629"],
+	"owner": ["61566533590967"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
